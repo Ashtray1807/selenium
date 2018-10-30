@@ -15,8 +15,8 @@
       <file leaf-file-name="ImplicitAndExplicitWait.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="993">
-              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+            <state relative-caret-position="248">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -561,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+        <state relative-caret-position="248">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

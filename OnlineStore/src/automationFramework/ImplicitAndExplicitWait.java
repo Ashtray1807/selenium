@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -35,7 +36,6 @@ public class ImplicitAndExplicitWait {
         Thread.sleep(2000);
 
 
-
         //Click Next
         driver.findElement(By.cssSelector("span[class^='RveJvd snByac']")).click();
         Thread.sleep(2000);
@@ -47,17 +47,23 @@ public class ImplicitAndExplicitWait {
         //Click Next
         driver.findElement(By.cssSelector("span[class^='RveJvd snByac']")).click();
 
-        //Explicit wait - to wait for the compose button to be click-able
+        //Create wait variable
         WebDriverWait wait = new WebDriverWait(driver, 30);
 
 
         //Click on Compose
+        //driver.findElement(By.cssSelector("div[class^='T-I J-J5-Ji T-I-KE L3']")).click();
+        //Thread.sleep(2000);
+
+        //Waint until the button is visible
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("div[class^='T-I J-J5-Ji T-I-KE L3']")));
+
+        //Click on the compose button as soon as the "compose" button is visible
         driver.findElement(By.cssSelector("div[class^='T-I J-J5-Ji T-I-KE L3']")).click();
-        //driver.findElement(By.xpath("//*[contains(@gh, 'cm')]")).click();
         Thread.sleep(2000);
 
         //Close browser
-        //driver.quit();
+        driver.quit();
 
 
     }
