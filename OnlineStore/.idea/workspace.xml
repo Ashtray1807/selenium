@@ -36,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkingAndUderConstructionLinks.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorkingAndUderConstructionLinks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="308">
+              <caret line="17" column="71" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyboardAndMouse.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/KeyboardAndMouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/KeyboardAndMouse.java" />
       </list>
     </option>
   </component>
@@ -181,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WorkingAndUderConstructionLinks">
+  <component name="RunManager" selected="Application.KeyboardAndMouse">
     <configuration name="CheckVisibilityOfWebElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.CheckVisibilityOfWebElements" />
       <module name="OnlineStore" />
@@ -204,8 +217,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GmailLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.GmailLogin" />
+    <configuration name="ImplicitAndExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.ImplicitAndExplicitWait" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -215,8 +228,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ImplicitAndExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.ImplicitAndExplicitWait" />
+    <configuration name="KeyboardAndMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.KeyboardAndMouse" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -279,19 +292,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.GmailLogin" />
       <item itemvalue="Application.CheckVisibilityOfWebElements" />
       <item itemvalue="Application.ImplicitAndExplicitWait" />
       <item itemvalue="Application.ClickOnFacebookLogo" />
       <item itemvalue="Application.WorkingAndUderConstructionLinks" />
+      <item itemvalue="Application.KeyboardAndMouse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeyboardAndMouse" />
         <item itemvalue="Application.WorkingAndUderConstructionLinks" />
         <item itemvalue="Application.ClickOnFacebookLogo" />
         <item itemvalue="Application.ImplicitAndExplicitWait" />
         <item itemvalue="Application.CheckVisibilityOfWebElements" />
-        <item itemvalue="Application.GmailLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -631,8 +644,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="17" column="71" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/KeyboardAndMouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
