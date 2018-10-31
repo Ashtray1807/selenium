@@ -27,8 +27,8 @@
       <file leaf-file-name="ClickOnFacebookLogo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +39,7 @@
       <file leaf-file-name="WorkingAndUderConstructionLinks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="-192">
               <caret line="17" column="71" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,11 +48,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyboardAndMouse.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KeyboardAndMouse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/KeyboardAndMouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+            <state relative-caret-position="375">
+              <caret line="20" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectDate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/SelectDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="24" column="102" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlertAndPopupHandeling.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/AlertAndPopupHandeling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,6 +165,9 @@
         <option value="$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/KeyboardAndMouse.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/DownloadFile.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/SelectDate.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/AlertAndPopupHandeling.java" />
       </list>
     </option>
   </component>
@@ -194,9 +233,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KeyboardAndMouse">
-    <configuration name="CheckVisibilityOfWebElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.CheckVisibilityOfWebElements" />
+  <component name="RunManager" selected="Application.AlertAndPopupHandeling">
+    <configuration name="AlertAndPopupHandeling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.AlertAndPopupHandeling" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -206,19 +245,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ClickOnFacebookLogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.ClickOnFacebookLogo" />
-      <module name="OnlineStore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ImplicitAndExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.ImplicitAndExplicitWait" />
+    <configuration name="DownloadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.DownloadFile" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -230,6 +258,17 @@
     </configuration>
     <configuration name="KeyboardAndMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.KeyboardAndMouse" />
+      <module name="OnlineStore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SelectDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.SelectDate" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -292,19 +331,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CheckVisibilityOfWebElements" />
-      <item itemvalue="Application.ImplicitAndExplicitWait" />
-      <item itemvalue="Application.ClickOnFacebookLogo" />
       <item itemvalue="Application.WorkingAndUderConstructionLinks" />
       <item itemvalue="Application.KeyboardAndMouse" />
+      <item itemvalue="Application.DownloadFile" />
+      <item itemvalue="Application.SelectDate" />
+      <item itemvalue="Application.AlertAndPopupHandeling" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlertAndPopupHandeling" />
+        <item itemvalue="Application.SelectDate" />
+        <item itemvalue="Application.DownloadFile" />
         <item itemvalue="Application.KeyboardAndMouse" />
         <item itemvalue="Application.WorkingAndUderConstructionLinks" />
-        <item itemvalue="Application.ClickOnFacebookLogo" />
-        <item itemvalue="Application.ImplicitAndExplicitWait" />
-        <item itemvalue="Application.CheckVisibilityOfWebElements" />
       </list>
     </recent_temporary>
   </component>
@@ -592,16 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/GmailLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -612,20 +641,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/FirstTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/KeyboardAndMouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="20" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/GmailLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="573">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,9 +671,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/FirstTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="-192">
           <caret line="17" column="71" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -652,10 +691,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/KeyboardAndMouse.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+        <state relative-caret-position="473">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/SelectDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="102" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/AlertAndPopupHandeling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
