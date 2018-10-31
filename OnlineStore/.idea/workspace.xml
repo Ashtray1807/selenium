@@ -12,11 +12,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImplicitAndExplicitWait.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImplicitAndExplicitWait.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="273">
+              <caret line="58" column="123" lean-forward="true" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="123" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClickOnFacebookLogo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkingAndUderConstructionLinks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstTestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/FirstTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,6 +65,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="573">
               <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverCommands_10.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/WebDriverCommands_10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/automationFramework/GmailLogin.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/CheckVisibilityOfWebElements.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java" />
       </list>
     </option>
   </component>
@@ -131,9 +181,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImplicitAndExplicitWait">
+  <component name="RunManager" selected="Application.WorkingAndUderConstructionLinks">
     <configuration name="CheckVisibilityOfWebElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.CheckVisibilityOfWebElements" />
+      <module name="OnlineStore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ClickOnFacebookLogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.ClickOnFacebookLogo" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -165,19 +226,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ListIntoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.ListIntoArray" />
-      <module name="OnlineStore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WebDriverCommands_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.WebDriverCommands_10" />
+    <configuration name="WorkingAndUderConstructionLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.WorkingAndUderConstructionLinks" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -229,19 +279,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.WebDriverCommands_10" />
-      <item itemvalue="Application.ListIntoArray" />
       <item itemvalue="Application.GmailLogin" />
       <item itemvalue="Application.CheckVisibilityOfWebElements" />
       <item itemvalue="Application.ImplicitAndExplicitWait" />
+      <item itemvalue="Application.ClickOnFacebookLogo" />
+      <item itemvalue="Application.WorkingAndUderConstructionLinks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkingAndUderConstructionLinks" />
+        <item itemvalue="Application.ClickOnFacebookLogo" />
         <item itemvalue="Application.ImplicitAndExplicitWait" />
         <item itemvalue="Application.CheckVisibilityOfWebElements" />
         <item itemvalue="Application.GmailLogin" />
-        <item itemvalue="Application.ListIntoArray" />
-        <item itemvalue="Application.WebDriverCommands_10" />
       </list>
     </recent_temporary>
   </component>
@@ -408,16 +458,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WebDriverCommands_3.java" />
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/FirstTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/WebDriverCommands_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -519,16 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/WebDriverCommands_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/CheckVisibilityOfWebElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
@@ -561,8 +591,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="273">
+          <caret line="58" column="123" lean-forward="true" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/FirstTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/WebDriverCommands_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
