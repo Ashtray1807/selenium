@@ -12,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImplicitAndExplicitWait.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="58" column="123" lean-forward="true" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="123" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ClickOnFacebookLogo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertAndPopupHandeling.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlertAndPopupHandeling.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/AlertAndPopupHandeling.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
               <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FetchCellValueOfRowAndColumnOfDynamicTable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/FetchCellValueOfRowAndColumnOfDynamicTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/automationFramework/DownloadFile.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/SelectDate.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/AlertAndPopupHandeling.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/FetchCellValueOfRowAndColumnOfDynamicTable.java" />
       </list>
     </option>
   </component>
@@ -233,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlertAndPopupHandeling">
+  <component name="RunManager" selected="Application.FetchCellValueOfRowAndColumnOfDynamicTable">
     <configuration name="AlertAndPopupHandeling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.AlertAndPopupHandeling" />
       <module name="OnlineStore" />
@@ -256,6 +257,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="FetchCellValueOfRowAndColumnOfDynamicTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.FetchCellValueOfRowAndColumnOfDynamicTable" />
+      <module name="OnlineStore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="KeyboardAndMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.KeyboardAndMouse" />
       <module name="OnlineStore" />
@@ -269,17 +281,6 @@
     </configuration>
     <configuration name="SelectDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.SelectDate" />
-      <module name="OnlineStore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WorkingAndUderConstructionLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.WorkingAndUderConstructionLinks" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -331,19 +332,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.WorkingAndUderConstructionLinks" />
       <item itemvalue="Application.KeyboardAndMouse" />
       <item itemvalue="Application.DownloadFile" />
       <item itemvalue="Application.SelectDate" />
       <item itemvalue="Application.AlertAndPopupHandeling" />
+      <item itemvalue="Application.FetchCellValueOfRowAndColumnOfDynamicTable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FetchCellValueOfRowAndColumnOfDynamicTable" />
         <item itemvalue="Application.AlertAndPopupHandeling" />
         <item itemvalue="Application.SelectDate" />
         <item itemvalue="Application.DownloadFile" />
         <item itemvalue="Application.KeyboardAndMouse" />
-        <item itemvalue="Application.WorkingAndUderConstructionLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -711,6 +712,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/AlertAndPopupHandeling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/SelectDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -721,10 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/AlertAndPopupHandeling.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/FetchCellValueOfRowAndColumnOfDynamicTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="573">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
