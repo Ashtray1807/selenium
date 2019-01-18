@@ -10,16 +10,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/src/automationFramework/Tooltip.java" />
+    </disable_hints>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GmailLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/GmailLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
+            <state relative-caret-position="550">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImplicitAndExplicitWait.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="823">
+              <caret line="58" column="123" lean-forward="true" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="123" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +44,8 @@
       <file leaf-file-name="TakeScreenShot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/TakeScreenShot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="320">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,19 +57,30 @@
         <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DownloadFile2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DownloadFile2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="600">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#393#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tooltip.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/automationFramework/Tooltip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +94,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/automationFramework/Tooltip.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,8 +128,9 @@
         <option value="$PROJECT_DIR$/src/automationFramework/GetMaximumOfAllTheValuesInAColumnOfDynamicTable.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/ReadDataFromExcelFile.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/GmailLogin.java" />
-        <option value="$PROJECT_DIR$/src/automationFramework/TakeScreenShot.java" />
         <option value="$PROJECT_DIR$/src/automationFramework/DownloadFile2.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/TakeScreenShot.java" />
+        <option value="$PROJECT_DIR$/src/automationFramework/Tooltip.java" />
       </list>
     </option>
   </component>
@@ -116,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,16 +175,15 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/StavrosMichelis/Desktop/selenium/OnlineStore/src/automationFramework/GmailLogin.java" />
-    <property name="last_opened_file_path" value="D:/Desktop/New folder/libs" />
+    <property name="last_opened_file_path" value="D:/Desktop/New folder" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3034483" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DownloadFile2">
+  <component name="RunManager" selected="Application.Tooltip">
     <configuration name="DownloadFile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.DownloadFile2" />
       <module name="OnlineStore" />
@@ -191,17 +220,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ImplicitAndExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automationFramework.ImplicitAndExplicitWait" />
-      <module name="OnlineStore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="TakeSCreenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.TakeSCreenShot" />
       <module name="OnlineStore" />
@@ -215,6 +233,17 @@
     </configuration>
     <configuration name="TakeScreenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="automationFramework.TakeScreenShot" />
+      <module name="OnlineStore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Tooltip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationFramework.Tooltip" />
       <module name="OnlineStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -267,18 +296,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GmailLogin" />
-      <item itemvalue="Application.ImplicitAndExplicitWait" />
       <item itemvalue="Application.TakeSCreenShot" />
       <item itemvalue="Application.TakeScreenShot" />
       <item itemvalue="Application.DownloadFile2" />
+      <item itemvalue="Application.Tooltip" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tooltip" />
         <item itemvalue="Application.DownloadFile2" />
         <item itemvalue="Application.TakeScreenShot" />
         <item itemvalue="Application.TakeSCreenShot" />
         <item itemvalue="Application.GmailLogin" />
-        <item itemvalue="Application.ImplicitAndExplicitWait" />
       </list>
     </recent_temporary>
   </component>
@@ -307,12 +336,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2869288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29411766" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943678" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36165577" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1953125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -336,16 +365,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/ClickOnFacebookLogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="79" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/WorkingAndUderConstructionLinks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -360,9 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,20 +770,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="923">
-          <caret line="58" column="123" lean-forward="true" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/GmailLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="600">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -776,28 +789,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/automationFramework/TakeScreenShot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/GmailLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="550">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automationFramework/DownloadFile2.java">
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/ImplicitAndExplicitWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="823">
+          <caret line="58" column="123" lean-forward="true" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="123" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#393#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/automationFramework/Tooltip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

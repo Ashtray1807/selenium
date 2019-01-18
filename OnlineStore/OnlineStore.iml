@@ -20,5 +20,18 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://D:/Desktop/New folder" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://D:/Desktop/New folder" />
+        </SOURCES>
+        <jarDirectory url="file://D:/Desktop/New folder" recursive="false" />
+        <jarDirectory url="file://D:/Desktop/New folder" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
