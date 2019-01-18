@@ -1,12 +1,15 @@
 package automationFramework;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
+
+import java.io.File;
+import java.io.IOException;
 
 
-public class GmailLogin {
+
+public class TakeScreenShot {
     public static void main(String[] args) throws InterruptedException {
         //Create a new driver
         WebDriver driver = new ChromeDriver();
@@ -40,9 +43,6 @@ public class GmailLogin {
         clickInainteUser.click();
         Thread.sleep(3000);
 
-
-
-
         //Insert password
         WebElement password = driver.findElement(By.xpath("//*[contains(@class, 'whsOnd zHQkBf')]"));
         password.clear();
@@ -50,9 +50,17 @@ public class GmailLogin {
         WebElement clickInaintePassword = driver.findElement(By.xpath("//*[contains(@class, 'RveJvd snByac')]"));
         clickInaintePassword.click();
 
-
-
+        //Take screenshot
+        try {
+            File screenShot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+            //Save screenshot
+            FileHandler.copy(screenShot, new File("D:/selenium/screenshot.png"));
+        }catch (IOException e){
+            e.printStackTrace();
         }
 
+
     }
+
+}
 
