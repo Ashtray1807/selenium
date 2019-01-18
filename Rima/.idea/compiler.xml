@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Rima" />
+        <module name="rima-domain" />
+        <module name="rima-framework" />
+        <module name="rima-page-objects" />
+        <module name="rima-regresion-tests" />
       </profile>
     </annotationProcessing>
   </component>

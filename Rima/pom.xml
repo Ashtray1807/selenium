@@ -6,7 +6,14 @@
 
     <groupId>Rima</groupId>
     <artifactId>Rima</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>rima-framework</module>
+        <module>rima-domain</module>
+        <module>rima-page-objects</module>
+        <module>rima-regresion-tests</module>
+    </modules>
 
 
 </project>
