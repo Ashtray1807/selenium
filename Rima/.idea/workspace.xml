@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cf5965-11fa-44c1-a03c-ac265a6e3ae7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rima-framework/src/main/java/rima/framework/core/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rima-page-objects/src/main/java/rima/pageobjects/homepage/GoogleHomepage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rima-framework/src/main/java/rima/framework/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rima-framework/src/main/java/rima/framework/core/BasePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,13 +60,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rima-framework/src/main/java/rima/framework/core/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="443">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleHomepage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rima-page-objects/src/main/java/rima/pageobjects/homepage/GoogleHomepage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +107,7 @@
         <option value="$PROJECT_DIR$/rima-framework/pom.xml" />
         <option value="$PROJECT_DIR$/rima-framework/src/main/java/rima/framework/core/BasePage.java" />
         <option value="$PROJECT_DIR$/rima-framework/src/main/java/rima/framework/core/BaseTest.java" />
+        <option value="$PROJECT_DIR$/rima-page-objects/src/main/java/rima/pageobjects/homepage/GoogleHomepage.java" />
       </list>
     </option>
   </component>
@@ -128,58 +142,58 @@
             <path>
               <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rima" type="462c0819:PsiDirectoryNode" />
-              <item name="rima-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rima-page-objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rima" type="462c0819:PsiDirectoryNode" />
-              <item name="rima-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rima-page-objects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rima" type="462c0819:PsiDirectoryNode" />
-              <item name="rima-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rima" type="462c0819:PsiDirectoryNode" />
-              <item name="rima-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rima-page-objects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rima" type="462c0819:PsiDirectoryNode" />
-              <item name="rima-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rima-page-objects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rima" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rima" type="462c0819:PsiDirectoryNode" />
-              <item name="rima-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rima-page-objects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rima" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rima" type="462c0819:PsiDirectoryNode" />
-              <item name="rima-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rima-page-objects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rima" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rima" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rima" type="462c0819:PsiDirectoryNode" />
+              <item name="rima-page-objects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rima" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,10 +299,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49946696" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49946696" visible="true" weight="0.32897604" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -353,10 +367,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rima-framework/src/main/java/rima/framework/core/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="443">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rima-page-objects/src/main/java/rima/pageobjects/homepage/GoogleHomepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,7 +439,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rima-framework</last-edited>
+          <last-edited>rima-page-objects</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -426,7 +452,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: io.github.bonigarcia:webdrivermanager:${webdrivermanager.version}</last-edited>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
