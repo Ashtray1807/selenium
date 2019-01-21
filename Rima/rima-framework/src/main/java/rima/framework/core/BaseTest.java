@@ -18,7 +18,7 @@ public class BaseTest {
         ChromeDriverManager.chromedriver();
         if("true".equals(headless)){
             ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--headless"):
+            chromeOptions.addArguments("--headless");
             driver = new ChromeDriver(chromeOptions);
         } else {
             driver = new ChromeDriver();
@@ -33,7 +33,9 @@ public class BaseTest {
         }
     }
 
-
+    public WebDriver getDriver(){
+        return driver;
+    }
 
 
 
