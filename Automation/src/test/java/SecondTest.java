@@ -10,3 +10,4 @@ public class SecondTest extends BaseTest {
         System.out.println("LinkedIn Opened. Test passed!");
 
     }
+}

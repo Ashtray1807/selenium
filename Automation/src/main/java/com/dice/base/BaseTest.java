@@ -10,12 +10,14 @@ public class BaseTest {
 
     @BeforeMethod
     protected void methodSetUp() {
+        System.out.println("Method Set up");
         driver = new ChromeDriver();
     }
 
     @AfterMethod
     protected void methodTearDown() {
         driver.quit();
+        System.out.println("Method Tear Down");
     }
 
 

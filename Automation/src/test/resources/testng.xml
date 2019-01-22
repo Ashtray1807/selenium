@@ -4,11 +4,15 @@
     <test name="FirstTest">
         <classes>
             <class name="FirstTest">
-                <methods>
-
-                    <exclude name="secondTestMethod"/>
-                </methods>
             </class>
         </classes>
     </test>
+
+    <test name="SecondTest">
+        <classes>
+            <class name="SecondTest">
+            </class>
+        </classes>
+    </test>
+
 </suite>
