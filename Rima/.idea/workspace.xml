@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cf5965-11fa-44c1-a03c-ac265a6e3ae7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Automation/src/test/java/FirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Automation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Automation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Automation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Automation/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Automation/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Automation/target/test-classes/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Automation/target/test-classes/FirstTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
