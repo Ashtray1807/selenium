@@ -24,12 +24,14 @@ public class LoginPage extends BasePageObject<LoginPage> {
     }
 
     public void fillUpEmailAndPassword(String email, String password){
+        System.out.println("Filling up email and password");
         type(email, emailField);
         type(password, passwordField);
 
     }
 
     public ProfilePage pushSignInButton(){
+        System.out.println("Clicking on Sign In Button");
         click(signInButton);
         return new ProfilePage(driver);
 

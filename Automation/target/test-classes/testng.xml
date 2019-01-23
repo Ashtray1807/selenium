@@ -1,18 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="FirstTestSuite" verbose="1">
-    <test name="FirstTest">
+    <test name="LoginTest">
         <classes>
-            <class name="FirstTest">
+            <class name="LoginTest">
             </class>
         </classes>
     </test>
 
-    <test name="SecondTest">
-        <classes>
-            <class name="SecondTest">
-            </class>
-        </classes>
-    </test>
+
 
 </suite>
