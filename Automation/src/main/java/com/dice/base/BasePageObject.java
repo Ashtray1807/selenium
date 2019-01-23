@@ -15,6 +15,7 @@ public class BasePageObject<T> {
 
     }
 
+    @SuppressWarnings("unchecked")
     protected T getPage(String url) {
         driver.get(url);
         return (T) this;
@@ -22,7 +23,12 @@ public class BasePageObject<T> {
     }
 
     protected void type(String text, By element) {
+        driver.findElement(element).sendKeys(text);
 
+    }
+
+    protected void click(By element) {
+        driver.findElement(element).click();
 
     }
 }

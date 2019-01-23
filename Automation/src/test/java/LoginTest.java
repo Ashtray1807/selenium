@@ -13,9 +13,9 @@ public class LoginTest extends BaseTest {
         loginPage.openLoginPage();
 
         //Fill email and password
-
+        loginPage.fillUpEmailAndPassword("ion@mailinator.com", "123qwe!@#QWE");
         //Click sign in and wait for profile page to load
-
+        loginPage.pushSignInButton();
         //Verifications
 
         //-Verify title of the page is Seeker Dashboard-Profile

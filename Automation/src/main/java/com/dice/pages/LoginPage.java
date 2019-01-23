@@ -29,4 +29,9 @@ public class LoginPage extends BasePageObject<LoginPage> {
 
     }
 
+    public ProfilePage pushSignInButton(){
+        click(signInButton);
+        return new ProfilePage(driver);
+
+    }
 }
